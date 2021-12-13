@@ -1,0 +1,270 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+/*header start*/
+
+
+.header{
+ 	    width: 100%;
+}
+
+.container{
+  	width: 1140px;
+  	margin: auto; 	
+}
+
+.nav{
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo img{
+     width: 130px;   
+     margin-top: 10px;
+     margin-bottom: 10px;
+}
+
+.menu ul li{
+	list-style: none;
+    display: inline-block;
+    line-height: 70px;
+    color: #1e266d;
+    font-size: 18px;
+    padding: 15px 10px;
+    font-weight: 500;
+    line-height: 70px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.menu-btn{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.menu-btn button{
+    background: #2e367d;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 8px;
+    margin-left: 2px;
+}
+
+.menu-btn button:hover{
+    background-color: #00AEEF;
+    cursor: pointer;
+}
+
+
+/*header end*/
+
+
+/*about section start*/
+
+
+.about{
+ 	width: 100%;
+    padding-top: 15px
+}
+
+.about-content{
+	width: 1140px;
+  	margin: auto; 
+}
+
+
+.about-content h2{
+  	color: #1e266d;
+    font-size: 45px;
+    line-height: 40px;
+    font-weight: 750;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.about-content p{
+	color: #333;
+    font-size: 19px;
+    line-height: 35px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*about section end*/
+
+
+/*adress content start*/
+
+.adress{
+	width: 100%;
+}
+
+.adress-content{
+    width: 1000px;
+    margin: auto;
+    margin-top: 90px;
+    margin-bottom: 10px;
+    background-color: #2e367d;
+    border-radius: 10px;
+    padding: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.adress-left h2{
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 3;
+}
+
+.adress-left p{
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    line-height: 1.9
+
+}
+
+.adress-right h2{
+	color: #fff;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 3;
+
+}
+
+.adress-right p{
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    line-height: 1.9
+}
+
+/*adress content end*/
+
+
+/*all link content start*/
+
+.link{
+    width: 100%;
+    padding-top: 70px;
+    padding-bottom: 60px;
+}
+
+.link-container{
+	text-align: justify;
+}
+
+.link-content{
+	display: flex;
+	width: 1140px;
+	margin: auto;
+}
+
+.link-1, .link-2, .link-3, .link-4 h5 p ul li{
+    flex-basis: 30%;
+}
+
+
+.link-1 h5{
+	color: #1e266d;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 10px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.link-1 p{
+	font-weight: 400;
+	color: #91a3bb;
+	padding-right: 70px;
+	font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.link-2 h5{
+	color: #1e266d;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 10px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.link-2 p{
+	font-weight: 400;
+	color: #91a3bb;
+    padding-right: 100px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.link-3 h5{
+	color: #1e266d;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 10px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.link-3 ul li{
+	font-weight: 400;
+	color: #91a3bb;
+	font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    list-style: none;
+}
+
+.link-4 h5{
+	color: #1e266d;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 10px;
+    line-height: 24px;
+    font-weight: 700;
+}
+    
+.link-4 ul li{
+	font-weight: 400;
+	color: #91a3bb;
+	font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    list-style: none;
+}
+
+
+/*all link content end*/
+
+.rules{
+	margin: auto;
+    color: #2e367da1;
+    font-size: 15px;
+    line-height: 2.0;
+    font-weight: 400;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+ 
+
+                 /*end*/
+
+
+
