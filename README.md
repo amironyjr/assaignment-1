@@ -1,3 +1,3 @@
-# assainment-1
+# assaignment-1
 
-https://amironyjr.github.io/assainment-1/about.html
+https://amironyjr.github.io/assainment-1/
